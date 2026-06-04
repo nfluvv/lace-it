@@ -1,25 +1,25 @@
 # 👟 Sneakers Store — React & Redux Toolkit
 
-Современный интернет-магазин кроссовок, разработанный с использованием методологии **Feature-Sliced Design (FSD)**.
+A modern, high-performance e-commerce frontend platform built strictly on top of the **Feature-Sliced Design (FSD)** architectural methodology.
 
 ---
 
-### 🚀 Ссылка на проект
-[Посмотреть Demo на GitHub Pages](https://mattuzik.github.io/lace-it)
+### 🚀 Live Demo
+[View Live Demo on GitHub Pages](https://mattuzik.github.io/lace-it)
 
 ---
 
-### ✨ Ключевые функции
-*   **Каталог:** динамическая подгрузка товаров.
-*   **Избранное:** сохранение понравившихся моделей в локальное хранилище.
-*   **Корзина:** добавление/удаление товаров и расчет итоговой стоимости.
-*   **Фильтрация:** поиск по названию в режиме реального времени.
-*   **Адаптивность:** корректное отображение на мобильных устройствах.
+### ✨ Key Features
+*   **Dynamic Product Catalog:** Optimized data fetching and rendering of product grids.
+*   **Wishlist Management:** LocalStorage-backed persistence for saved products with optimistic UI updates.
+*   **Shopping Cart:** Real-time state updates, item mutation handling, and automated price calculation.
+*   **Instant Search & Filtering:** Dynamic, real-time client-side search query processing.
+*   **Fully Responsive UI:** Production-ready adaptive layout optimized for all mobile and desktop devices.
 
 ---
 
-### 🛠 Стек технологий
-*   **UI:** React
+### 🛠 Tech Stack
+*   **UI Framework:** React
 *   **State Management:** Redux Toolkit
 *   **Styling:** SCSS Modules
 *   **Architecture:** Feature-Sliced Design (FSD)
@@ -27,38 +27,39 @@
 
 ---
 
-### 🏗 Структура проекта (FSD)
-Проект строго следует архитектурному руководству FSD:
-*   `app/`: провайдеры (Redux, Router) и глобальные стили.
-*   `pages/`: основные экраны приложения (Home, Favorites, Cart).
-*   `widgets/`: композиционные блоки (Header, ProductList).
-*   `features/`: бизнес-логика (AddToCart, ToggleFavorite).
-*   `entities/`: бизнес-сущности (ProductCard, CartItem).
-*   `shared/`: UI-kit, API-методы, вспомогательные утилиты.
+### 🏗 Architecture & Codebase Structure
+
+The project strictly adheres to the architectural guidelines of FSD:
+*   `app/` — Application entry point, global styles, and core providers (Redux Store, Router).
+*   `pages/` — Composition layer assembling standalone app screens (Home, Favorites, Cart).
+*   `widgets/` — High-level structural components (Header, ProductList) combining features and entities.
+*   `features/` — Business logic handling user interactions (AddToCart, ToggleFavorite).
+*   `entities/` — Domain business entities and shared layout items (ProductCard, CartItem).
+*   `shared/` — Reusable abstract modules: generic UI-kit components, API clients, and helper utilities.
 
 ---
 
-### 💻 Установка и запуск
+### 💻 Installation & Quick Start
 
-1.  **Клонируйте репозиторий:**
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com/mattuzik/lace-it
     ```
 
-2.  **Установите зависимости:**
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
 
-3.  **Запустите сервер разработки:**
+3.  **Run the development server:**
     ```bash
     npm start
     ```
 
 ---
 
-### 📦 Деплой
-Сборка проекта для GitHub Pages:
+### 📦 Deployment
+Building and deploying the static build configuration for production hosting (GitHub Pages):
 ```bash
 npm run build
 npm run deploy
@@ -66,5 +67,5 @@ npm run deploy
 
 ---
 
-### 📝 Лицензия
-Проект открыт под лицензией MIT.
+### 📝 License
+This project is open-source and available under the MIT License.
