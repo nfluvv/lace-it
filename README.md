@@ -5,7 +5,7 @@ A modern, high-performance e-commerce frontend platform built strictly on top of
 ---
 
 ### 🚀 Live Demo
-[View Live Demo on GitHub Pages](https://mattuzik.github.io/lace-it)
+[View Live Demo on GitHub Pages](https://nfluvv.github.io/lace-it)
 
 ---
 
